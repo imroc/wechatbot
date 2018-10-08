@@ -37,7 +37,7 @@ def text_reply(msg):
                             msg['FromUserName'])
         else:
             # Sleep 1 second is not necessary. Just cheat human.
-            time.sleep(1)
+            # time.sleep(1)
             if rebort_apply == True:
                 cont = requests.get(
                     'http://www.tuling123.com/openapi/api?key=%s&info=%s' % (apikey, msg['Content'])).content
