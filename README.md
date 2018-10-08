@@ -1,7 +1,7 @@
-## 微信自动回复图灵机器人
+## 微信自动回复(图灵机器人)
 
 #### 用法
-1. 在 http://www.tuling123.com 注册创建公众号机器人并获取 apikey
+1. 在 http://www.tuling123.com 注册创建公众号机器人并获取 apikey
 2. 导出 apikey 到环境变量
 ``` bash
 export TULING_API_KEY=xxx
